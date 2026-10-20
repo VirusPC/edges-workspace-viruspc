@@ -10,4 +10,5 @@
 - [skills/referenced/README.md](<skills/referenced/README.md>) — 本层 \`.agents/skills/\` 的原位技能或安装链接，只维护索引，不改正文。
 - [projects](<projects/README.md>) — 项目内容叶子的组织清单。
 - [notes](<notes/README.md>) — 笔记内容叶子的组织清单。
+- [组合](<compose/README.md>) — 被组合的 harness 仓库。
 <!-- project-entries-local:end -->
