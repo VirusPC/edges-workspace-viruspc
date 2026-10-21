@@ -7,8 +7,9 @@ peng cheng 的 Compose 工作区根：通过 `edges compose` 挂载公开脑与�
 ## 本层硬约束
 
 - 本仓是 Compose workspace 根：挂载公开脑与私密脑；默认业务内容写入 composed 子仓，不在本仓根堆笔记/任务正文。
-- 本仓已 `edges init`（memory / skills / notes / projects）；tasks 未默认初始化。跨项目公开判断写公开脑，敏感内容写私密脑。
-- 默认优先写公开脑；敏感/私密内容只写私密脑。
+- 本仓已 `edges init`（memory / skills / notes / projects）；tasks 未默认初始化。
+- 个人工作相关内容（包括面试准备、工作规划、工作总结）一律写私密脑。
+- 其他内容默认优先写公开脑；敏感/私密内容只写私密脑。
 <!-- project-harness-constraints:end -->
 
 <!-- project-harness-local:start -->
