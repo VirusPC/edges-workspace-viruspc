@@ -14,7 +14,7 @@
     "edges-compose": {
       "source": "../edges/packages/skills",
       "sourceType": "local",
-      "computedHash": "16132ada7d893f1bfc1e754fdfe8202a3a9a947f8eee894f6a7d41f3dafca097"
+      "computedHash": "b1634228d318a3848efc9d5c735139b57fb89e1531ad338251bd34a8adf114f1"
     },
     "edges-note": {
       "source": "../edges/packages/skills",
