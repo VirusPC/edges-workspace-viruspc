@@ -1,5 +1,7 @@
 # 本层 harness 材料索引
 
+框架仓、公开脑与私密脑在工作区根：`edges/`、`edges-brain-viruspc/`、`edges-brain-viruspc-private/`。角色与写入规则见仓库根 `AGENTS.md`。下面只登记本仓 harness 材料。
+
 <!-- project-entries-local:start -->
 ## 本层内容
 
