@@ -32,18 +32,9 @@ git submodule update --init
 - 私密内容写 `edges-brain-viruspc-private/`。
 - 框架改动写 `edges/`。
 - 还没归档的草稿、截图和预览放 `.work/<任务名>/`。这是本地暂存，长期内容再归入对应子模块。
-- 笔记和任务正文放进对应子模块，不堆在本仓库根目录。
 
-Agent 要在本工作区放置交付物，或写入会留下来的记忆时，用本仓库的 Edges 模块。本仓自身的材料写在根目录 `.harness`；笔记、任务和跨项目内容按上面的公开/私密规则写入对应子模块。
-
-| 模块 | 放什么 |
-| --- | --- |
-| notes | 笔记，写入对应的脑 |
-| tasks | 任务，写入对应的脑。本仓根未初始化 tasks |
-| memory | 长期记忆。本仓条目在 `.harness/memory`；跨项目判断写入对应的脑 |
-| skills | 可复用流程。本仓条目在 `.harness/skills`；属于某个脑的流程写入该脑 |
-| projects | 项目材料。本仓清单在 `.harness/projects`；正文写入对应的脑 |
+笔记、任务、记忆、技能和项目怎么组织，读目标目录自己的 `README.md`；该目录有 `AGENTS.md` 时一并阅读。
 
 ## 给 Agent
 
-人读本文件。操作规则以 [`AGENTS.md`](AGENTS.md) 为准。
+人读本文件。Agent 读 [`AGENTS.md`](AGENTS.md)，再读要写入的那个内容子模块的 `README.md` 和 `AGENTS.md`。
