@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="title desc">
+  <title id="title">工作区布局</title>
+  <desc id="desc">工作区根 edges-workspace-viruspc 下有三个顶层 git submodule：edges 框架仓、edges-brain-viruspc 公开脑、edges-brain-viruspc-private 私密脑。.harness 是工作区级索引，组合清单为空。</desc>
+  <rect width="960" height="420" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+  <rect x="270" y="24" width="420" height="78" rx="12" fill="#f6f8fa" stroke="#1f2328" stroke-width="1.5"/>
+  <text x="480" y="54" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif" font-size="13" fill="#656d76">工作区根</text>
+  <text x="480" y="80" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, WenQuanYi Micro Hei Mono, Droid Sans Fallback, monospace" font-size="18" font-weight="700" fill="#1f2328">edges-workspace-viruspc</text>
+  <path d="M480 102 V112 M172 124 H788 M172 124 V156 M480 136 V156 M788 124 V156" fill="none" stroke="#8c959f" stroke-width="1.5"/>
+  <rect x="408" y="112" width="144" height="24" rx="12" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="480" y="128" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, WenQuanYi Micro Hei Mono, Droid Sans Fallback, monospace" font-size="12" fill="#656d76">git submodule</text>
+  <rect x="24" y="156" width="296" height="124" rx="12" fill="#ffffff" stroke="#0969da" stroke-width="1.5"/>
+  <text x="172" y="190" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif" font-size="14" font-weight="700" fill="#0969da">框架仓</text>
+  <text x="172" y="218" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, WenQuanYi Micro Hei Mono, Droid Sans Fallback, monospace" font-size="15" fill="#1f2328">edges/</text>
+  <text x="172" y="246" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif" font-size="13" fill="#656d76">CLI、skills、extensions、ADR</text>
+  <rect x="332" y="156" width="296" height="124" rx="12" fill="#ffffff" stroke="#1a7f37" stroke-width="1.5"/>
+  <text x="480" y="190" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif" font-size="14" font-weight="700" fill="#1a7f37">公开脑</text>
+  <text x="480" y="218" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, WenQuanYi Micro Hei Mono, Droid Sans Fallback, monospace" font-size="14" fill="#1f2328">edges-brain-viruspc/</text>
+  <text x="480" y="246" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif" font-size="13" fill="#656d76">默认写公开判断、笔记、任务</text>
+  <rect x="640" y="156" width="296" height="124" rx="12" fill="#ffffff" stroke="#8250df" stroke-width="1.5"/>
+  <text x="788" y="190" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif" font-size="14" font-weight="700" fill="#8250df">私密脑</text>
+  <text x="788" y="218" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, WenQuanYi Micro Hei Mono, Droid Sans Fallback, monospace" font-size="13" fill="#1f2328">edges-brain-viruspc-private/</text>
+  <text x="788" y="246" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif" font-size="13" fill="#656d76">只写敏感或私密内容</text>
+  <rect x="24" y="304" width="912" height="88" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+  <text x="480" y="340" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, WenQuanYi Micro Hei Mono, Droid Sans Fallback, monospace" font-size="16" font-weight="700" fill="#1f2328">.harness</text>
+  <text x="480" y="366" text-anchor="middle" font-family="PingFang SC, Hiragino Sans GB, Microsoft YaHei, Noto Sans SC, WenQuanYi Micro Hei, Droid Sans Fallback, sans-serif" font-size="14" fill="#656d76">工作区级索引。组合清单为空。</text>
+</svg>
