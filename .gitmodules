@@ -1,9 +1,9 @@
-[submodule ".harness/compose/edges-brain-viruspc"]
-	path = .harness/compose/edges-brain-viruspc
+[submodule "edges-brain-viruspc"]
+	path = edges-brain-viruspc
 	url = https://github.com/VirusPC/edges-brain-viruspc.git
-[submodule ".harness/compose/edges-brain-viruspc-private"]
-	path = .harness/compose/edges-brain-viruspc-private
+[submodule "edges-brain-viruspc-private"]
+	path = edges-brain-viruspc-private
 	url = https://github.com/VirusPC/edges-brain-viruspc-private.git
-[submodule ".harness/compose/edges"]
-	path = .harness/compose/edges
+[submodule "edges"]
+	path = edges
 	url = https://github.com/VirusPC/edges.git
