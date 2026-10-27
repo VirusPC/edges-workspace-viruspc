@@ -4,11 +4,11 @@ peng cheng 的默认工作区。本仓库是入口和索引；笔记、任务和
 
 ## 布局
 
-![工作区根下有 edges、公开脑、私密脑三个顶层子模块；.harness 是工作区级索引，组合清单为空](docs/workspace-layout.svg)
+![工作区根下有 edges、公开脑、私密脑三个顶层子模块；.edges 是工作区级索引，组合清单为空](docs/workspace-layout.svg)
 
 ## 三个内容目录
 
-这三个目录是普通 git submodule，登记在根目录的 `.gitmodules`。`.harness/compose/README.md` 的组合清单目前为空。
+这三个目录是普通 git submodule，登记在根目录的 `.gitmodules`。`.edges/compose/README.md` 的组合清单目前为空。
 
 | 目录 | 是什么 | 写什么 |
 | --- | --- | --- |

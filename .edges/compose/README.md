@@ -4,7 +4,7 @@ description: 被组合的 harness 仓库。
 ---
 # 被组合的 harness 仓库
 
-<!-- project-harness-compose:start -->
+<!-- edges-compose:start -->
 ## 组合
 
-<!-- project-harness-compose:end -->
+<!-- edges-compose:end -->
