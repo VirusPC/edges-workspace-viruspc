@@ -1,85 +1,100 @@
 {
   "version": 1,
   "skills": {
-    "conversation-to-notes": {
-      "source": "../edges/packages/skills",
-      "sourceType": "local",
-      "computedHash": "180aa7a97ff45031376fb9cea33f521e79f48913e6112b85ea2ad4d3a7301246"
-    },
-    "conversation-to-tasks": {
-      "source": "../edges/packages/skills",
-      "sourceType": "local",
-      "computedHash": "5844a4e1814d0415f0c5e3c755d92f7da0c3040b8f0e7075ce3505d0f28d5106"
-    },
     "edges-compose": {
-      "source": "../edges/packages/skills",
+      "source": "./edges/packages/skills",
       "sourceType": "local",
-      "computedHash": "b1634228d318a3848efc9d5c735139b57fb89e1531ad338251bd34a8adf114f1"
+      "computedHash": "42d9a49814bbe371563f79069aa17587302609684eb002b6c7657800adbc43c3"
+    },
+    "edges-conversation-to-notes": {
+      "source": "./edges/packages/skills",
+      "sourceType": "local",
+      "computedHash": "70a878a137362137eaf7813964e513a1456aa9f6f6088c34f79651be4bb87dbc"
+    },
+    "edges-conversation-to-tasks": {
+      "source": "./edges/packages/skills",
+      "sourceType": "local",
+      "computedHash": "e84b17cce3b4f41d9acf624120e9198e35810147f6b149ed3f2db410fa0abf73"
+    },
+    "edges-langfuse-agent-tracing": {
+      "source": "./edges/packages/skills",
+      "sourceType": "local",
+      "computedHash": "cfc84093e1e4d95fbdc7b6c21facb99a662febaf18fa4ab3545eea768e141b91"
+    },
+    "edges-langfuse-codex-cloud-tracing": {
+      "source": "./edges/packages/skills",
+      "sourceType": "local",
+      "computedHash": "51ef4d6d2ca12b5da675625616458b58470dcb143fbc46723f15c2ef17824271"
+    },
+    "edges-langfuse-cursor-cloud-tracing": {
+      "source": "./edges/packages/skills",
+      "sourceType": "local",
+      "computedHash": "ccc1fd1cf088c98f1ec6d167f7141fa6c4a1eff3fbcfd06674847441c6cde79f"
+    },
+    "edges-langfuse-grokbot-tracing": {
+      "source": "./edges/packages/skills",
+      "sourceType": "local",
+      "computedHash": "a82fffd338fec993c4d11c92a422e08dc14556d81a6a789a3949e8827097ea1b"
+    },
+    "edges-langfuse-local-agent-tracing": {
+      "source": "./edges/packages/skills",
+      "sourceType": "local",
+      "computedHash": "c880964e16faad169af96423067bfde75e9ec0dca9eb13406334fc63f1838500"
+    },
+    "edges-memory-add-type": {
+      "source": "./edges/packages/skills",
+      "sourceType": "local",
+      "computedHash": "067990dbd5af2e7e33de0b2e9b647d5350cf93a4c3de7bb09c254ddd430ef801"
+    },
+    "edges-memory-ask": {
+      "source": "./edges/packages/skills",
+      "sourceType": "local",
+      "computedHash": "e30e5d027813ef82f85746bad3cf7104c1701bbe04a69a797ab971d8bfa496fc"
+    },
+    "edges-memory-init": {
+      "source": "./edges/packages/skills",
+      "sourceType": "local",
+      "computedHash": "844be4b1aa386a17988dfaf1b481674b1b86f9139435287342d092585dfbe4aa"
+    },
+    "edges-memory-remember": {
+      "source": "./edges/packages/skills",
+      "sourceType": "local",
+      "computedHash": "d4137cfaf76e6662250f5abb2b267bb9303d136a0c9e08a5ca9620a8cf290f69"
+    },
+    "edges-migrate-directory-nodes": {
+      "source": "./edges/packages/skills",
+      "sourceType": "local",
+      "computedHash": "2fc70d55554e6bce34d5df96dc3969055778e0bfcd5cf69f5989d7fe8cfc4855"
     },
     "edges-note": {
-      "source": "../edges/packages/skills",
+      "source": "./edges/packages/skills",
       "sourceType": "local",
-      "computedHash": "c769d1f85bb4ce31b104bbe44ff41cf36c66fcff26b31a24fb4ad986272f3ce3"
+      "computedHash": "69fa389e03a934ec4933fd304c77ebda2373189166bcd0ec1d22f5908f9149eb"
     },
     "edges-onboarding": {
-      "source": "../edges/packages/skills",
+      "source": "./edges/packages/skills",
       "sourceType": "local",
-      "computedHash": "d7e1c010087380e40e0a0c3692e8d6cfce90d1c697354552429237804f610107"
+      "computedHash": "c87c4a97e55a6b8de190fc5ee97e7e01769b3cf10097540f1c8148b14fc615f3"
     },
-    "migrate-directory-nodes": {
-      "source": "../edges/packages/skills",
+    "edges-routines": {
+      "source": "./edges/packages/skills",
       "sourceType": "local",
-      "computedHash": "fc1082524629e0fb048a3e70855013cd6158f8613906d569829099c369af82d8"
+      "computedHash": "892079f84f5decae6b20cce8e39b2078ee09df447d25e37bb733b51d5e1e773d"
     },
-    "project-memory-add-type": {
-      "source": "../edges/packages/skills",
+    "edges-tasks-classify": {
+      "source": "./edges/packages/skills",
       "sourceType": "local",
-      "computedHash": "ece11f3535ede58f0a7fc1016268be1f52b9e4195fc158880fad020c9d42a98c"
+      "computedHash": "60f887eef48e86215377f5864d4b82411351117f2d78a41eec2b9eba25e648dc"
     },
-    "project-memory-ask": {
-      "source": "../edges/packages/skills",
+    "edges-user-memory-backup": {
+      "source": "./edges/packages/skills",
       "sourceType": "local",
-      "computedHash": "9407317d817065aab47f0774884537943e004f9139080f37e2f9ff2d0609820f"
+      "computedHash": "37e521636fb4a287893a3833ffaa64229557907bd43655dda6b1a4603e5317d6"
     },
-    "project-memory-doctor": {
-      "source": "../edges/packages/skills",
+    "edges-user-memory-restore": {
+      "source": "./edges/packages/skills",
       "sourceType": "local",
-      "computedHash": "47d18597c5807c5d7d4d378d07d73ac206f369d220aa3e8bce4354a448a00b21"
-    },
-    "project-memory-init": {
-      "source": "../edges/packages/skills",
-      "sourceType": "local",
-      "computedHash": "c53dbd3f5bee2a6c6826a160f40dc0dd34f722495c49c0b4df5199e46416db18"
-    },
-    "project-memory-migrate": {
-      "source": "../edges/packages/skills",
-      "sourceType": "local",
-      "computedHash": "bb2416c86843652c6de063098db0662bb2c678f78248914265724800a523d364"
-    },
-    "project-memory-remember": {
-      "source": "../edges/packages/skills",
-      "sourceType": "local",
-      "computedHash": "0382d3014174e50826ddf1958eae5823987d012acc53193cd170e963bf907565"
-    },
-    "project-memory-reshape": {
-      "source": "../edges/packages/skills",
-      "sourceType": "local",
-      "computedHash": "b8397f4cd8fd1049789392c3051ecb5116a06b77173a4da5dd0e89788cd2f0ce"
-    },
-    "project-tasks-classify": {
-      "source": "../edges/packages/skills",
-      "sourceType": "local",
-      "computedHash": "68e88bfb1904076ccf0e062dc097d9b7b77541043e0d06c22a7eb8c34e66aa84"
-    },
-    "user-memory-backup": {
-      "source": "../edges/packages/skills",
-      "sourceType": "local",
-      "computedHash": "8281b9188e08126df95adc609bdb4164b8e0e07acc48f4518f16ce1cab74d1bd"
-    },
-    "user-memory-restore": {
-      "source": "../edges/packages/skills",
-      "sourceType": "local",
-      "computedHash": "07b2119533dfc1ff16fe4f58e8232d96ef58902a2a1c5611b9d5661691b36bf2"
+      "computedHash": "f2ae6310b6f52982d85e0cc86bf32340b7bc3b514ed0e26df803fa738d59cc67"
     }
   }
 }
