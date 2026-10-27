@@ -1,7 +1,7 @@
 ---
 name: edges-onboarding
-description: 帮用户第一次接入 Edges 时使用：安装 edges CLI（npm 包 @viruspc/edges）、初始化目录、跑一次验证、学会常用命令、排查安装与鉴权报错。用户说「帮我接入 edges」「安装 edges」「edges 怎么用」「edges 报错了」「给我的仓库配一套 edges」时触发。已经装好、只是要写笔记请改用 edges-note；整理对话改用 conversation-to-notes；项目记忆的增删查改改用 project-memory-* 系列。本 skill 只做入口与引导，具体操作一律交给 edges CLI 执行。
-version: 0.1.1
+description: 帮用户第一次接入 Edges 时使用：安装 edges CLI（npm 包 @viruspc/edges）、初始化目录、跑一次验证、学会常用命令、排查安装与鉴权报错。用户说「帮我接入 edges」「安装 edges」「edges 怎么用」「edges 报错了」「给我的仓库配一套 edges」时触发。已经装好、只是要写笔记请改用 edges-note；整理对话改用 edges-conversation-to-notes；项目记忆的增删查改改用 edges-memory-ask / edges-memory-remember / edges-memory-init。本 skill 只做入口与引导，具体操作一律交给 edges CLI 执行。
+version: 0.2.0
 ---
 
 # edges onboarding
@@ -19,7 +19,7 @@ version: 0.1.1
 - 用户第一次在一台机器或一个仓库上使用 Edges。
 - 用户问「edges 怎么装 / 怎么用 / 有哪些命令」。
 - `edges` 命令报错，用户需要排查。
-- 不用于：写一条笔记（`edges-note`）、整理对话（`conversation-to-notes`）、维护项目记忆（`project-memory-*`）。装好之后按那些 skill 走。
+- 不用于：写一条笔记（`edges-note`）、整理对话（`edges-conversation-to-notes`）、维护项目记忆（`edges-memory-ask` / `edges-memory-remember` / `edges-memory-init`）。装好之后按那些 skill 走。
 
 ## 硬规则
 
@@ -59,7 +59,7 @@ edges --help
 预期：
 
 - `npm install` 末尾出现 `added N packages`。
-- `edges --version` 打印一个版本号（写作本 skill 时 npm 上是 `0.2.1`）。
+- `edges --version` 打印一个版本号（写作本 skill 时 npm 上是 `0.3.0`）。
 - `edges --help` 打印 `Usage: edges [options] [command]`，命令列表里有 `init`、`notes`、`projects`、`tasks`、`memory`、`skills`、`artifacts`、`schema`、`forest`、`compose`。
 
 失败时：
@@ -95,7 +95,7 @@ edges --scope . init -- -g -y
 预期 stdout（示例，字段以实际为准）：
 
 ```json
-{"status":"success","targetDir":"/path/to/repo","agentsAction":"created","modules":["notes","tasks"],"created":[".harness/tasks/README.md",".harness/notes/README.md"],"command":"init"}
+{"status":"success","targetDir":"/path/to/repo","agentsAction":"created","modules":["notes","tasks"],"created":[".edges/tasks/README.md",".edges/notes/README.md"],"command":"init"}
 ```
 
 重复执行是安全的：已有文件出现在 `preserved` 里，不会被覆盖。
@@ -135,7 +135,7 @@ edges --scope . memory doctor
 
 - 每条命令退出码 0，stdout 是 `"status":"success"` 的 JSON（`memory doctor` 输出 `"ok": true`）。
 - `notes create` 返回 `"path":"notes/<今天日期>--edges-接入验证/INDEX.md"`。
-- `tasks create` 返回的 `path` 在 `.harness/tasks/_default/backlog/` 下，`tasks list` 能列出它。
+- `tasks create` 返回的 `path` 在 `.edges/tasks/_default/backlog/` 下，`tasks list` 能列出它。
 
 验证通过后告诉用户可以删掉 `/tmp/edges-check`（由用户决定，不要擅自删除用户目录）。任何一步失败，按下面「常见错误排查」处理。
 
@@ -182,7 +182,7 @@ edges --scope <目录> compose list
 edges --scope <目录> compose update
 ```
 
-细节交给对应 skill：写笔记 `edges-note`，整理对话 `conversation-to-notes`，记忆 `project-memory-ask` / `project-memory-remember` / `project-memory-doctor`，任务分类 `project-tasks-classify`。
+细节交给对应 skill：写笔记 `edges-note`，整理对话 `edges-conversation-to-notes`，记忆 `edges-memory-ask` / `edges-memory-remember`，任务分类 `edges-tasks-classify`。
 
 没有 shell 的宿主（只能调 MCP）：用 `packages/mcp-servers/new-note` 暴露的 `new_note` 工具（参数 `title`、`body`），它在背后调用同一个 `edges notes create`。目前 MCP 只覆盖新建笔记。
 

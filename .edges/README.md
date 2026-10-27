@@ -2,7 +2,7 @@
 
 框架仓、公开脑与私密脑在工作区根：`edges/`、`edges-brain-viruspc/`、`edges-brain-viruspc-private/`。角色与写入规则见仓库根 `AGENTS.md`。下面只登记本仓 harness 材料。
 
-<!-- project-entries-local:start -->
+<!-- edges-entries-local:start -->
 ## 本层内容
 
 - [memory/feedbacks/README.md](<memory/feedbacks/README.md>) — 用户的纠正、确认过的做法与必须遵守的禁止模式。
@@ -13,4 +13,4 @@
 - [projects](<projects/README.md>) — 项目内容叶子的组织清单。
 - [notes](<notes/README.md>) — 笔记内容叶子的组织清单。
 - [组合](<compose/README.md>) — 被组合的 harness 仓库。
-<!-- project-entries-local:end -->
+<!-- edges-entries-local:end -->
