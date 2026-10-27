@@ -54,17 +54,22 @@
     "edges-memory-init": {
       "source": "./edges/packages/skills",
       "sourceType": "local",
-      "computedHash": "844be4b1aa386a17988dfaf1b481674b1b86f9139435287342d092585dfbe4aa"
+      "computedHash": "b4d5cab0fb6de8a1be4589842a980750c8eacc7f5bea31db978b086015444992"
     },
     "edges-memory-remember": {
       "source": "./edges/packages/skills",
       "sourceType": "local",
-      "computedHash": "d4137cfaf76e6662250f5abb2b267bb9303d136a0c9e08a5ca9620a8cf290f69"
+      "computedHash": "48acf0300679179dcdd20a59ec3bf9819773f83313da652317734709b18c3b5a"
     },
-    "edges-migrate-directory-nodes": {
+    "edges-memory-user-backup": {
       "source": "./edges/packages/skills",
       "sourceType": "local",
-      "computedHash": "2fc70d55554e6bce34d5df96dc3969055778e0bfcd5cf69f5989d7fe8cfc4855"
+      "computedHash": "d83f50176cafeccaabcfa265825cb2d9eb647daf482608dbbdefea8b6114ca4e"
+    },
+    "edges-memory-user-restore": {
+      "source": "./edges/packages/skills",
+      "sourceType": "local",
+      "computedHash": "ab915d52fbd1dc4fb5a713268805ffb8a8ee525d58300dfb35f26a978f1bc7dd"
     },
     "edges-note": {
       "source": "./edges/packages/skills",
@@ -85,16 +90,6 @@
       "source": "./edges/packages/skills",
       "sourceType": "local",
       "computedHash": "60f887eef48e86215377f5864d4b82411351117f2d78a41eec2b9eba25e648dc"
-    },
-    "edges-user-memory-backup": {
-      "source": "./edges/packages/skills",
-      "sourceType": "local",
-      "computedHash": "37e521636fb4a287893a3833ffaa64229557907bd43655dda6b1a4603e5317d6"
-    },
-    "edges-user-memory-restore": {
-      "source": "./edges/packages/skills",
-      "sourceType": "local",
-      "computedHash": "f2ae6310b6f52982d85e0cc86bf32340b7bc3b514ed0e26df803fa738d59cc67"
     }
   }
 }
