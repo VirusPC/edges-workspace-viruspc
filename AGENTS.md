@@ -28,7 +28,7 @@ peng cheng 的默认工作区：工作区根以三个顶层 git submodule 挂载
 
 - 本仓工作区根挂载三个内容 git submodule：`edges/`（框架）、`edges-brain-viruspc/`（公开脑）、`edges-brain-viruspc-private/`（私密脑）。检出用 `git submodule update --init`。这三份不写入 `.edges/compose/README.md`。
 - 默认业务内容写入对应内容子模块，不在本仓根堆笔记/任务正文。
-- 本仓已 `edges init`（memory / skills / notes / projects）；tasks 未默认初始化。跨项目公开判断写公开脑，敏感内容写私密脑。
+- 本仓已 `edges init`（memory / skills / tasks / notes / projects）。跨项目公开判断写公开脑，敏感内容写私密脑。
 - 默认优先写公开脑；敏感/私密内容只写私密脑。
 - 内容子模块里的组织规则以该目录的 `README.md` 和 `AGENTS.md` 为准。
 <!-- edges-constraints:end -->
