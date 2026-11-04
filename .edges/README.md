@@ -13,4 +13,5 @@
 - [projects](<projects/README.md>) — 项目内容叶子的组织清单。
 - [notes](<notes/README.md>) — 笔记内容叶子的组织清单。
 - [组合](<compose/README.md>) — 被组合的 harness 仓库。
+- [Tasks](<tasks/README.md>) — 任务看板。
 <!-- edges-entries-local:end -->
