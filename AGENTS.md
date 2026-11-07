@@ -30,6 +30,7 @@ peng cheng 的默认工作区：工作区根以三个顶层 git submodule 挂载
 - 默认业务内容写入对应内容子模块，不在本仓根堆笔记/任务正文。
 - 本仓已 `edges init`（memory / skills / tasks / notes / projects）。跨项目公开判断写公开脑，敏感内容写私密脑。
 - 默认优先写公开脑；敏感/私密内容只写私密脑。
+- Workspace 提交消息的标题与正文不得透露私密脑中的主题、项目名、文件名或内容摘要，也不得复制私密脑的提交消息。更新私密脑指针时使用中性描述，例如 `chore: update private submodule pointer`。
 - 内容子模块里的组织规则以该目录的 `README.md` 和 `AGENTS.md` 为准。
 <!-- edges-constraints:end -->
 
